@@ -1,21 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class InteractableCube : MonoBehaviour, IInteractable
 {
-    Outline outline;
     Material material;
     bool isAlternate = false;
 
     void Start()
     {
+        gameObject.GetOrAddComponent<OutlineOnHover>();
         material = GetComponent<Renderer>().material;
-        outline = gameObject.AddComponent<Outline>();
-
-        outline.OutlineMode = Outline.Mode.OutlineAll;
-        outline.OutlineColor = Color.white;
-        outline.OutlineWidth = 0f;
     }
 
     void Update()
@@ -23,17 +19,7 @@ public class InteractableCube : MonoBehaviour, IInteractable
 
     }
 
-    public void HoverInteract()
-    {
-        outline.OutlineWidth = 5f;
-    }
-
-    public void UnhoverInteract()
-    {
-        outline.OutlineWidth = 0f;
-    }
-
-    public void ClickInteract()
+    public void Interact()
     {
         isAlternate = !isAlternate;
         material.color = isAlternate ? Color.white : Color.yellow;

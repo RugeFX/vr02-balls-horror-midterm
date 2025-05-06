@@ -9,26 +9,26 @@ public class TableTrigger : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     void Update()
     {
-        
+
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player") || isTriggered) return;
 
-        Debug.Log("Collider triggered");
-        
+        TriggerObjectDrop();
+    }
+
+    private void TriggerObjectDrop()
+    {
         if (dropObject.TryGetComponent<Rigidbody>(out var rigidBody))
         {
-            Debug.Log($"Got rigidbody of {dropObject.name}");
-            // add force to drop the object
-            rigidBody.AddForce(Vector3.forward * 10, ForceMode.Impulse);
-
+            rigidBody.AddForce(Vector3.forward * 10f + Vector3.up * 1f, ForceMode.Impulse);
             isTriggered = true;
         }
     }
