@@ -9,7 +9,7 @@ public class TableTrigger : MonoBehaviour
 
     void Start()
     {
-
+        GetComponent<Renderer>().enabled = false;
     }
 
     void Update()
@@ -28,7 +28,7 @@ public class TableTrigger : MonoBehaviour
     {
         if (dropObject.TryGetComponent<Rigidbody>(out var rigidBody))
         {
-            rigidBody.AddForce(Vector3.forward * 10f + Vector3.up * 1f, ForceMode.Impulse);
+            rigidBody.AddForce(Vector3.forward * 15f + Vector3.up * 5f, ForceMode.Impulse);
             isTriggered = true;
         }
     }
