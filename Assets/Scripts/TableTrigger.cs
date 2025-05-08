@@ -26,9 +26,11 @@ public class TableTrigger : MonoBehaviour
 
     private void TriggerObjectDrop()
     {
+        Transform dropObjectTransform = dropObject.transform;
+
         if (dropObject.TryGetComponent<Rigidbody>(out var rigidBody))
         {
-            rigidBody.AddForce(Vector3.forward * 15f + Vector3.up * 5f, ForceMode.Impulse);
+            rigidBody.AddForceAtPosition((Vector3.forward + Vector3.down) * 50f, dropObjectTransform.position + Vector3.up * dropObjectTransform.localScale.y / 2, ForceMode.Impulse);
             isTriggered = true;
         }
     }
