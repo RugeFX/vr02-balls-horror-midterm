@@ -10,7 +10,7 @@ public class InteractableCube : MonoBehaviour, IInteractable
 
     void Start()
     {
-        gameObject.GetOrAddComponent<OutlineOnHover>();
+        gameObject.GetOrAddComponent<HoverOutline>();
         material = GetComponent<Renderer>().material;
     }
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class OutlineOnHover : MonoBehaviour, IHoverable
+public class HoverOutline : MonoBehaviour, IHoverable
 {
     Outline outline;
     Coroutine currentCoroutine;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class ShowTagOnHover : MonoBehaviour, IHoverable
+public class HoverTag : MonoBehaviour, IHoverable
 {
     Canvas tagCanvas;
 

@@ -1,17 +1,24 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class InteractableCubeWithTag : MonoBehaviour, IInteractable
+public class InteractableCubeWithTag : MonoBehaviour, IInteractable, IHoverable
 {
     Material material;
     bool isAlternate = false;
+    Action hoverAction;
+    Action unhoverAction;
 
     void Start()
     {
-        gameObject.GetOrAddComponent<OutlineOnHover>();
-        gameObject.GetOrAddComponent<ShowTagOnHover>();
+        hoverAction += gameObject.GetOrAddComponent<HoverOutline>().Hover;
+        unhoverAction += gameObject.GetOrAddComponent<HoverOutline>().Unhover;
+
+        hoverAction += gameObject.GetOrAddComponent<HoverTag>().Hover;
+        unhoverAction += gameObject.GetOrAddComponent<HoverTag>().Unhover;
+
         material = GetComponent<Renderer>().material;
     }
 
@@ -24,5 +31,15 @@ public class InteractableCubeWithTag : MonoBehaviour, IInteractable
     {
         isAlternate = !isAlternate;
         material.color = isAlternate ? Color.white : Color.yellow;
+    }
+
+    public void Hover()
+    {
+        hoverAction?.Invoke();
+    }
+
+    public void Unhover()
+    {
+        unhoverAction?.Invoke();
     }
 }
