@@ -207,7 +207,9 @@ GameObject:
   - component: {fileID: 5073746186275258687}
   - component: {fileID: 3287222577822592616}
   - component: {fileID: 3074613392136577796}
+  - component: {fileID: 1068391860182975759}
   - component: {fileID: 5354476843809143390}
+  - component: {fileID: 7901777918676436872}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -309,6 +311,102 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!82 &1068391860182975759
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4108169498188033038}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.494
+  m_Pitch: 0.67
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 109
+  DopplerLevel: 1.58
+  MinDistance: 1
+  MaxDistance: 100
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.2777778
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1.1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &5354476843809143390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,7 +420,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 5
-  runSpeed: 15
   gravity: -50
   jumpHeight: 3
   groundCheck: {fileID: 4958019997895188897}
@@ -330,6 +427,24 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &7901777918676436872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4108169498188033038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2596e4b67fd5637428cbba86f9d97ee4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepSounds:
+  - {fileID: 8300000, guid: 4ca6c7c23dbbc6349aed7ff3a7c343e3, type: 3}
+  - {fileID: 8300000, guid: 468098d6cabe49e49bbad6199daa6184, type: 3}
+  - {fileID: 8300000, guid: c298262b1110c474db5d618677ae7d17, type: 3}
+  - {fileID: 8300000, guid: 6da095d9855fe39469ad861cbb087304, type: 3}
+  - {fileID: 8300000, guid: cf51c4718fe9eef479a68b0d4ff49f3a, type: 3}
 --- !u!1 &4738568691750593068
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,7 +625,6 @@ GameObject:
   - component: {fileID: 2153631541640757819}
   - component: {fileID: 5937100085054733854}
   - component: {fileID: 1237272755778039014}
-  - component: {fileID: 682360488068609950}
   m_Layer: 0
   m_Name: CameraHolder
   m_TagString: Untagged
@@ -561,22 +675,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rayDistance: 5
---- !u!114 &682360488068609950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8523158822993394320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bbf3261c51bc4f97a1bbbacc22abd06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walkBobAmount: 0.05
-  runBobAmount: 0.1
-  walkBobSpeed: 14
-  runBobSpeed: 18
 --- !u!1 &9027075007982941629
 GameObject:
   m_ObjectHideFlags: 0

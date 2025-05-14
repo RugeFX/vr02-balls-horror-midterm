@@ -6,31 +6,36 @@ using UnityEngine;
 
 public class InteractableCubeWithTag : MonoBehaviour, IInteractable, IHoverable
 {
-    Material material;
+    public string tagText = "A Yellow Cube";
+    public string tagTextAlternate = "A White Cube";
+    public Color cubeColor;
+    public Color cubeColorAlternate;
+
     bool isAlternate = false;
+    HoverTag hoverTag;
     Action hoverAction;
     Action unhoverAction;
 
     void Start()
     {
-        hoverAction += gameObject.GetOrAddComponent<HoverOutline>().Hover;
-        unhoverAction += gameObject.GetOrAddComponent<HoverOutline>().Unhover;
+        var hoverOutline = gameObject.GetOrAddComponent<HoverOutline>();
+        hoverTag = gameObject.GetOrAddComponent<HoverTag>();
 
-        hoverAction += gameObject.GetOrAddComponent<HoverTag>().Hover;
-        unhoverAction += gameObject.GetOrAddComponent<HoverTag>().Unhover;
+        hoverTag.tagText = tagText;
 
-        material = GetComponent<Renderer>().material;
-    }
+        hoverAction += hoverOutline.Hover;
+        unhoverAction += hoverOutline.Unhover;
 
-    void Update()
-    {
-
+        hoverAction += hoverTag.Hover;
+        unhoverAction += hoverTag.Unhover;
     }
 
     public void Interact()
     {
         isAlternate = !isAlternate;
-        material.color = isAlternate ? Color.white : Color.yellow;
+
+        GetComponent<Renderer>().material.color = isAlternate ? cubeColorAlternate : cubeColor;
+        hoverTag.tagText = isAlternate ? tagTextAlternate : tagText;
     }
 
     public void Hover()
