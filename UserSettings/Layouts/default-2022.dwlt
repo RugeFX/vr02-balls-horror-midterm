@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 53
+  controlID: 54
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 54
+  controlID: 55
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 55
+  controlID: 56
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -663,52 +663,14 @@ MonoBehaviour:
     commitBody: 
     commitMessage: 
     currentBranch: feature/environment
-    treeScroll: {x: 0, y: 0}
+    treeScroll: {x: 0, y: 524}
     treeChanges:
       assets:
         keys: []
         values: []
       folders:
-        keys:
-        - UserSettings
-        - UserSettings\Layouts
-        values:
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -737,60 +699,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        label: default-2022.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: C:\Users\USER\Documents\balls\vr02-balls-horror-midterm\UserSettings\Layouts\default-2022.dwlt
-          projectPath: UserSettings\Layouts\default-2022.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -810,22 +718,16 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries:
-    - path: UserSettings\Layouts\default-2022.dwlt
-      fullPath: C:\Users\USER\Documents\balls\vr02-balls-horror-midterm\UserSettings\Layouts\default-2022.dwlt
-      projectPath: UserSettings\Layouts\default-2022.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 1 changed file
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2025-05-15T01:12:30.725+07:00
+      updatedTimeString: 2025-05-15T16:43:54.312+07:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2025-05-15T01:59:17.492+07:00
+      updatedTimeString: 2025-05-15T16:44:10.840+07:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2025-05-15T01:58:33.501+07:00
+      updatedTimeString: 2025-05-15T12:45:52.984+07:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -7117,9 +7019,9 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: feature/environment
   currentRemoteUrl: https://github.com/RugeFX/vr02-balls-horror-midterm.git
-  statusAhead: 1
+  statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: feature/environment
@@ -7130,13 +7032,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2025-05-15T01:12:30.725+07:00
+    updatedTimeString: 2025-05-15T16:43:54.312+07:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2025-05-15T01:59:17.501+07:00
+    updatedTimeString: 2025-05-15T16:44:10.861+07:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2025-05-15T01:59:17.492+07:00
+    updatedTimeString: 2025-05-15T16:44:10.840+07:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -7195,21 +7097,21 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 2485}
+      scrollPos: {x: 0, y: 2277}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2643ffffd655ffffcaf6ffff4ef7ffff7af7ffffbef7ffff3af8ffffb6f8ffff12f9ffff9ef9ffff12faffff4efaffff8afaffffdefaffff32fbffff3c5d0000
+      m_ExpandedIDs: 1ce2ffff5ef8ffff7cfaffff32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: tv_desk
-        m_OriginalName: tv_desk
+        m_Name: rust_key
+        m_OriginalName: rust_key
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -48346
+        m_UserData: -43682
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -7599,9 +7501,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.8194952, y: 3.7235746, z: -15.691642}
+    m_Target: {x: -0.23197784, y: 3.8865106, z: -7.7142086}
     speed: 2
-    m_Value: {x: -3.8194952, y: 3.7235746, z: -15.691642}
+    m_Value: {x: -0.23197784, y: 3.8865106, z: -7.7142086}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -7639,7 +7541,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 0.1, y: 0.1}
@@ -7649,11 +7551,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: -0.7071068, y: -0.00000008211128, z: 0.000000033407066, w: -0.7071068}
+    m_Value: {x: 0.70710677, y: -0.00000017062528, z: -0.0000000070170856, w: 0.7071068}
   m_Size:
-    m_Target: 5.144795
+    m_Target: 8.636942
     speed: 2
-    m_Value: 5.144795
+    m_Value: 8.265017
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -7737,10 +7639,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 271}
-    m_SelectedIDs: 1a5f0000
-    m_LastClickedID: 24346
-    m_ExpandedIDs: 00000000c85e0000ca5e0000cc5e0000ce5e0000f65e000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 211}
+    m_SelectedIDs: be610000
+    m_LastClickedID: 25022
+    m_ExpandedIDs: 000000006c6100006e6100007061000072610000966100009a6100004270000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -7768,7 +7670,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c85e0000ca5e0000cc5e0000ce5e0000
+    m_ExpandedIDs: 000000006c6100006e6100007061000072610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
