@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: b4de4bf17d3fb491dbf227e86a7f1de2
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Background
+    second: {fileID: 2100000, guid: d4723b01e8c9245e8b0a5a701b13f8b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 55c906be975214c8abc0a5133808225f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marble
+    second: {fileID: 2100000, guid: 574ea7d651db04bd08e87a89a58f84fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Old_Dusty_Bookshelf_Mat
+    second: {fileID: 2100000, guid: f7dc147eedcdd41a1bfd6d3797965ddb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 8834d5f43cb42415abcbc6044611d6cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poliigon_BrickWallReclaimed_8320_2K
+    second: {fileID: 2100000, guid: edc07a06edd4b4940bc8e9e85b5b7899, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poliigon_WoodVeneerOak_7760_2K
+    second: {fileID: 2100000, guid: dedc0c12298ff450b96115ba0467ad18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rockingchair_01
+    second: {fileID: 2100000, guid: 507c43eed989c4cdbb461dd836612641, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: damaged_painted_plaster_wall
+    second: {fileID: 2100000, guid: 81296fcbf0cc143ab8f79ba585598730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: old_cabin_dusty_oak_flooring_01
+    second: {fileID: 2100000, guid: dfece97882eaa4887b2ffed1b81b580f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Old_Dusty_Bookshelf_Mat_BaseColor
+    second: {fileID: 2800000, guid: 3acf6b2641ddb4151bd73256e2989507, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Old_Dusty_Bookshelf_Mat_Normal(OpenGL)
+    second: {fileID: 2800000, guid: 64b295ca76e1940458473b0be4adc7e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Old_Dusty_Bookshelf_Mat_Roughness
+    second: {fileID: 2800000, guid: 5f8617a2f793742d686f6c3fed58a320, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Old_Dusty_Bookshelf_Mat_SpecularLvl
+    second: {fileID: 2800000, guid: 61173bfd425a54a20a7323d3fff9dd65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Poliigon_BrickWallReclaimed_8320_BaseColor
+    second: {fileID: 2800000, guid: 885728c1c976f4d8cad44fc805ac8c5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Poliigon_BrickWallReclaimed_8320_Metallic
+    second: {fileID: 2800000, guid: 035398aaf679e4275879702c56fb95d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Poliigon_BrickWallReclaimed_8320_Normal
+    second: {fileID: 2800000, guid: aa1838ae0046a467dad8a1ce65e4f1fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Poliigon_BrickWallReclaimed_8320_Roughness
+    second: {fileID: 2800000, guid: d77cd4f97e83b4efbbfa684a4cc040e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Poliigon_WoodVeneerOak_7760_BaseColor
+    second: {fileID: 2800000, guid: 10cb2d2103540404bbf1fc5884e49820, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Poliigon_WoodVeneerOak_7760_Metallic
+    second: {fileID: 2800000, guid: d6843684ac86b453a8cf858055816a29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Poliigon_WoodVeneerOak_7760_Normal
+    second: {fileID: 2800000, guid: 8e911e658af844212a66f3d193ed3b9e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Poliigon_WoodVeneerOak_7760_Roughness
+    second: {fileID: 2800000, guid: a163d28e1b13c47b4bbab8518ea45b76, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,22 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
     public float walkSpeed = 5f;
-    public float runSpeed = 15f;
-    public float gravity = -9.81f;
+    public float gravity = Physics.gravity.y;
     public float jumpHeight = 3f;
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
-    public GameObject staminaObject;
 
-    TextMeshProUGUI staminaText;
-    float stamina = 100f;
     bool isGrounded;
     CharacterController controller;
     Vector3 velocity;
@@ -24,8 +19,6 @@ public class MovementController : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        staminaText = staminaObject.GetComponent<TextMeshProUGUI>();
-        staminaText.text = stamina.ToString("F0");
     }
 
     void Update()
@@ -43,25 +36,7 @@ public class MovementController : MonoBehaviour
 
         Vector3 move = Vector3.ClampMagnitude(transform.right * x + transform.forward * z, 1f);
 
-        float currentSpeed;
-        if (Input.GetKey(KeyCode.LeftShift) && stamina > 0)
-        {
-            staminaText.text = stamina.ToString("F0");
-            stamina -= Time.deltaTime * 30f;
-            currentSpeed = runSpeed;
-        }
-        else
-        {
-            currentSpeed = walkSpeed;
-
-            if (stamina < 100)
-            {
-                stamina += Time.deltaTime * 20f;
-                staminaText.text = stamina.ToString("F0");
-            }
-        }
-
-        controller.Move(move * currentSpeed * Time.deltaTime);
+        controller.Move(walkSpeed * Time.deltaTime * move);
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
