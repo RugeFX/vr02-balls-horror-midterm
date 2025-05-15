@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1710
     height: 965
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 9706
+  controlID: 20
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 9707
+  controlID: 21
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 9708
+  controlID: 22
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -190,10 +190,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 444
+    width: 239
     height: 640
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -209,23 +209,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 444
+    x: 239
     y: 0
-    width: 849
+    width: 1186
     height: 640
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,9 +241,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1293
+    x: 1425
     y: 0
-    width: 417
+    width: 285
     height: 640
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -300,9 +300,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 444
+    x: 239
     y: 96
-    width: 847
+    width: 1184
     height: 619
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 847, y: 598}
+  m_TargetSize: {x: 1184, y: 598}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -335,8 +335,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -211.75
-    m_HBaseRangeMax: 211.75
+    m_HBaseRangeMin: -296
+    m_HBaseRangeMax: 296
     m_VBaseRangeMin: -149.5
     m_VBaseRangeMax: 149.5
     m_HAllowExceedBaseRangeMin: 1
@@ -347,7 +347,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -356,23 +356,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 847
+      width: 1184
       height: 598
     m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 423.5, y: 299}
+    m_Translation: {x: 592, y: 299}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -211.75
+      x: -296
       y: -149.5
-      width: 423.5
+      width: 592
       height: 299
     m_MinimalGUI: 1
   m_defaultScale: 2
-  m_LastWindowPixelSize: {x: 1694, y: 1238}
+  m_LastWindowPixelSize: {x: 2368, y: 1238}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -400,7 +400,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 96
-    width: 443
+    width: 238
     height: 619
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -415,9 +415,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 98630000
       m_LastClickedID: 0
-      m_ExpandedIDs: 0ed5fdff12d5fdff38b0ffff3cb0ffff3afaffff30fbffff905d0000
+      m_ExpandedIDs: 30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -461,9 +461,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 444
+    x: 239
     y: 96
-    width: 847
+    width: 1184
     height: 619
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -771,9 +771,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -20.761765, y: 2.7834907, z: -9.668684}
+    m_Target: {x: -25.361912, y: 5.12523, z: 11.228862}
     speed: 2
-    m_Value: {x: -20.761765, y: 2.7834907, z: -9.668684}
+    m_Value: {x: -25.361912, y: 5.12523, z: 11.228862}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -819,13 +819,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.02685654, y: -0.77208704, z: 0.03267458, w: 0.6341237}
+    m_Target: {x: 0.18423483, y: -0.62537146, z: 0.15525123, w: 0.74227697}
     speed: 2
-    m_Value: {x: 0.026856272, y: -0.7720793, z: 0.032674253, w: 0.6341173}
+    m_Value: {x: 0.18422471, y: -0.62533706, z: 0.1552427, w: 0.7422362}
   m_Size:
-    m_Target: 22.570961
+    m_Target: 28.71611
     speed: 2
-    m_Value: 22.570961
+    m_Value: 28.71611
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -870,9 +870,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1293
+    x: 1425
     y: 96
-    width: 416
+    width: 284
     height: 619
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -887,7 +887,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -917,10 +917,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1293
-    y: 72
-    width: 416
-    height: 692.5
+    x: 1425
+    y: 96
+    width: 284
+    height: 619
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -931,13 +931,13 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 2020.82919175
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
+  repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
   changeTab: 4
   activeTab: 4
@@ -1035,9 +1035,9 @@ MonoBehaviour:
         treeIsCheckable: 0
         checkState: 0
       selectedNode:
-        path: feature/assets
-        label: assets
-        level: 2
+        path: 
+        label: 
+        level: 0
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1122,6 +1122,16 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
+      - path: origin/feature/assets
+        label: assets
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       - path: origin/feature/controls
         label: controls
         level: 3
@@ -1143,10 +1153,10 @@ MonoBehaviour:
         treeIsCheckable: 0
         checkState: 0
       selectedNode:
-        path: 
-        label: 
+        path: Remote branches
+        label: Remote branches
         level: 0
-        isFolder: 0
+        isFolder: 1
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
@@ -1156,10 +1166,10 @@ MonoBehaviour:
     mode: 0
     newBranchName: 
     scroll: {x: 0, y: 0}
-    disableDelete: 0
-    disableCreate: 0
+    disableDelete: 1
+    disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2025-05-06T18:32:32.108+07:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -1177,12 +1187,14 @@ MonoBehaviour:
       token: 
     localBranches:
     - name: feature/assets
-      tracking: 
+      tracking: origin/feature/assets
     - name: feature/controls
       tracking: origin/feature/controls
     - name: main
       tracking: origin/main
     remoteBranches:
+    - name: origin/feature/assets
+      tracking: '[None]'
     - name: origin/feature/controls
       tracking: '[None]'
     - name: origin/HEAD
@@ -1263,653 +1275,17 @@ MonoBehaviour:
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
-    logEntries:
-    - commitID: 1536e485a0b102e70d9f009ce15ad172add505e7
-      mergeA: 
-      mergeB: 
-      authorName: RugeFX
-      authorEmail: zackfxg@gmail.com
-      commitEmail: zackfxg@gmail.com
-      commitName: RugeFX
-      summary: 'feat: base folder structure based on the instructions'
-      description: 
-      timeString: 2025-05-01T20:38:24.000+07:00
-      commitTimeString: 2025-05-01T20:38:24.000+07:00
-      changes:
-      - path: .vscode\extensions.json
-        fullPath: D:\Unity Projects\vr02-balls-uts\.vscode\extensions.json
-        projectPath: .vscode\extensions.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .vscode\launch.json
-        fullPath: D:\Unity Projects\vr02-balls-uts\.vscode\launch.json
-        projectPath: .vscode\launch.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .vscode\settings.json
-        fullPath: D:\Unity Projects\vr02-balls-uts\.vscode\settings.json
-        projectPath: .vscode\settings.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Art.meta
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Art.meta
-        projectPath: Assets\Art.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Art\.gitkeep
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Art\.gitkeep
-        projectPath: Assets\Art\.gitkeep
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Data.meta
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Data.meta
-        projectPath: Assets\Data.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Data\.gitkeep
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Data\.gitkeep
-        projectPath: Assets\Data\.gitkeep
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\.gitkeep
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Scenes\.gitkeep
-        projectPath: Assets\Scenes\.gitkeep
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Script.meta
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Script.meta
-        projectPath: Assets\Script.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Script\Script.cs
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Script\Script.cs
-        projectPath: Assets\Script\Script.cs
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Script\Script.cs.meta
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Script\Script.cs.meta
-        projectPath: Assets\Script\Script.cs.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\manifest.json
-        fullPath: D:\Unity Projects\vr02-balls-uts\Packages\manifest.json
-        projectPath: Packages\manifest.json
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        fullPath: D:\Unity Projects\vr02-balls-uts\Packages\packages-lock.json
-        projectPath: Packages\packages-lock.json
-        originalPath: 
-        indexStatus: 3
-        workTreeStatus: 0
-    - commitID: 8051f7f05824661fe5b6fd826b6de0c8b672512f
-      mergeA: 
-      mergeB: 
-      authorName: RugeFX
-      authorEmail: zackfxg@gmail.com
-      commitEmail: zackfxg@gmail.com
-      commitName: RugeFX
-      summary: Initial commit
-      description: 
-      timeString: 2025-05-01T20:30:29.000+07:00
-      commitTimeString: 2025-05-01T20:30:29.000+07:00
-      changes:
-      - path: Assets\Scenes.meta
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Scenes.meta
-        projectPath: Assets\Scenes.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Scenes\SampleScene.unity
-        projectPath: Assets\Scenes\SampleScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity.meta
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Scenes\SampleScene.unity.meta
-        projectPath: Assets\Scenes\SampleScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\manifest.json
-        fullPath: D:\Unity Projects\vr02-balls-uts\Packages\manifest.json
-        projectPath: Packages\manifest.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        fullPath: D:\Unity Projects\vr02-balls-uts\Packages\packages-lock.json
-        projectPath: Packages\packages-lock.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\AudioManager.asset
-        projectPath: ProjectSettings\AudioManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\ClusterInputManager.asset
-        projectPath: ProjectSettings\ClusterInputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\DynamicsManager.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\DynamicsManager.asset
-        projectPath: ProjectSettings\DynamicsManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\EditorBuildSettings.asset
-        projectPath: ProjectSettings\EditorBuildSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorSettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\EditorSettings.asset
-        projectPath: ProjectSettings\EditorSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\GraphicsSettings.asset
-        projectPath: ProjectSettings\GraphicsSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\InputManager.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\InputManager.asset
-        projectPath: ProjectSettings\InputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\MemorySettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\MemorySettings.asset
-        projectPath: ProjectSettings\MemorySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\NavMeshAreas.asset
-        projectPath: ProjectSettings\NavMeshAreas.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\PackageManagerSettings.asset
-        projectPath: ProjectSettings\PackageManagerSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-        projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\Physics2DSettings.asset
-        projectPath: ProjectSettings\Physics2DSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PresetManager.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\PresetManager.asset
-        projectPath: ProjectSettings\PresetManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectSettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\ProjectSettings.asset
-        projectPath: ProjectSettings\ProjectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\ProjectVersion.txt
-        projectPath: ProjectSettings\ProjectVersion.txt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\QualitySettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\QualitySettings.asset
-        projectPath: ProjectSettings\QualitySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\TagManager.asset
-        projectPath: ProjectSettings\TagManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TimeManager.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\TimeManager.asset
-        projectPath: ProjectSettings\TimeManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\UnityConnectSettings.asset
-        projectPath: ProjectSettings\UnityConnectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VFXManager.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\VFXManager.asset
-        projectPath: ProjectSettings\VFXManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\VersionControlSettings.asset
-        projectPath: ProjectSettings\VersionControlSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\XRSettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\XRSettings.asset
-        projectPath: ProjectSettings\XRSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        fullPath: D:\Unity Projects\vr02-balls-uts\UserSettings\EditorUserSettings.asset
-        projectPath: UserSettings\EditorUserSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        fullPath: D:\Unity Projects\vr02-balls-uts\UserSettings\Layouts\default-2022.dwlt
-        projectPath: UserSettings\Layouts\default-2022.dwlt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Search.index
-        fullPath: D:\Unity Projects\vr02-balls-uts\UserSettings\Search.index
-        projectPath: UserSettings\Search.index
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Search.settings
-        fullPath: D:\Unity Projects\vr02-balls-uts\UserSettings\Search.settings
-        projectPath: UserSettings\Search.settings
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    - commitID: 7a4a42c0e9892d46b2d1535b24ae2b433ddd4ef9
-      mergeA: 
-      mergeB: 
-      authorName: RugeFX
-      authorEmail: zackfxg@gmail.com
-      commitEmail: zackfxg@gmail.com
-      commitName: RugeFX
-      summary: Initial commit
-      description: 
-      timeString: 2025-05-01T20:30:17.000+07:00
-      commitTimeString: 2025-05-01T20:30:17.000+07:00
-      changes:
-      - path: .gitattributes
-        fullPath: D:\Unity Projects\vr02-balls-uts\.gitattributes
-        projectPath: .gitattributes
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .gitignore
-        fullPath: D:\Unity Projects\vr02-balls-uts\.gitignore
-        projectPath: .gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\.gitignore
-        fullPath: D:\Unity Projects\vr02-balls-uts\Assets\.gitignore
-        projectPath: Assets\.gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
+    logEntries: []
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2025-05-01T22:34:38.938+07:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2025-05-01T22:34:21.791+07:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
-      entries:
-      - commitID: 1536e485a0b102e70d9f009ce15ad172add505e7
-        mergeA: 
-        mergeB: 
-        authorName: RugeFX
-        authorEmail: zackfxg@gmail.com
-        commitEmail: zackfxg@gmail.com
-        commitName: RugeFX
-        summary: 'feat: base folder structure based on the instructions'
-        description: 
-        timeString: 2025-05-01T20:38:24.000+07:00
-        commitTimeString: 2025-05-01T20:38:24.000+07:00
-        changes:
-        - path: .vscode\extensions.json
-          fullPath: D:\Unity Projects\vr02-balls-uts\.vscode\extensions.json
-          projectPath: .vscode\extensions.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: .vscode\launch.json
-          fullPath: D:\Unity Projects\vr02-balls-uts\.vscode\launch.json
-          projectPath: .vscode\launch.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: .vscode\settings.json
-          fullPath: D:\Unity Projects\vr02-balls-uts\.vscode\settings.json
-          projectPath: .vscode\settings.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Art.meta
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Art.meta
-          projectPath: Assets\Art.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Art\.gitkeep
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Art\.gitkeep
-          projectPath: Assets\Art\.gitkeep
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Data.meta
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Data.meta
-          projectPath: Assets\Data.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Data\.gitkeep
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Data\.gitkeep
-          projectPath: Assets\Data\.gitkeep
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\.gitkeep
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Scenes\.gitkeep
-          projectPath: Assets\Scenes\.gitkeep
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Script.meta
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Script.meta
-          projectPath: Assets\Script.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Script\Script.cs
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Script\Script.cs
-          projectPath: Assets\Script\Script.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Script\Script.cs.meta
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Script\Script.cs.meta
-          projectPath: Assets\Script\Script.cs.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Packages\manifest.json
-          fullPath: D:\Unity Projects\vr02-balls-uts\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-        - path: Packages\packages-lock.json
-          fullPath: D:\Unity Projects\vr02-balls-uts\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - commitID: 8051f7f05824661fe5b6fd826b6de0c8b672512f
-        mergeA: 
-        mergeB: 
-        authorName: RugeFX
-        authorEmail: zackfxg@gmail.com
-        commitEmail: zackfxg@gmail.com
-        commitName: RugeFX
-        summary: Initial commit
-        description: 
-        timeString: 2025-05-01T20:30:29.000+07:00
-        commitTimeString: 2025-05-01T20:30:29.000+07:00
-        changes:
-        - path: Assets\Scenes.meta
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Scenes.meta
-          projectPath: Assets\Scenes.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\SampleScene.unity
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Scenes\SampleScene.unity
-          projectPath: Assets\Scenes\SampleScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\Scenes\SampleScene.unity.meta
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\Scenes\SampleScene.unity.meta
-          projectPath: Assets\Scenes\SampleScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Packages\manifest.json
-          fullPath: D:\Unity Projects\vr02-balls-uts\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Packages\packages-lock.json
-          fullPath: D:\Unity Projects\vr02-balls-uts\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\AudioManager.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\AudioManager.asset
-          projectPath: ProjectSettings\AudioManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ClusterInputManager.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\ClusterInputManager.asset
-          projectPath: ProjectSettings\ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\DynamicsManager.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\DynamicsManager.asset
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\EditorSettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\EditorSettings.asset
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\GraphicsSettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\InputManager.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\InputManager.asset
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\MemorySettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\MemorySettings.asset
-          projectPath: ProjectSettings\MemorySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\NavMeshAreas.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\NavMeshAreas.asset
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\PackageManagerSettings.asset
-          projectPath: ProjectSettings\PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-          projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\Physics2DSettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\Physics2DSettings.asset
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\PresetManager.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ProjectSettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\ProjectSettings.asset
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\ProjectVersion.txt
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\QualitySettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\TagManager.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\TimeManager.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\TimeManager.asset
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\UnityConnectSettings.asset
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\VFXManager.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\VFXManager.asset
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\VersionControlSettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\VersionControlSettings.asset
-          projectPath: ProjectSettings\VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: ProjectSettings\XRSettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\ProjectSettings\XRSettings.asset
-          projectPath: ProjectSettings\XRSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\EditorUserSettings.asset
-          fullPath: D:\Unity Projects\vr02-balls-uts\UserSettings\EditorUserSettings.asset
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: D:\Unity Projects\vr02-balls-uts\UserSettings\Layouts\default-2022.dwlt
-          projectPath: UserSettings\Layouts\default-2022.dwlt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\Search.index
-          fullPath: D:\Unity Projects\vr02-balls-uts\UserSettings\Search.index
-          projectPath: UserSettings\Search.index
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: UserSettings\Search.settings
-          fullPath: D:\Unity Projects\vr02-balls-uts\UserSettings\Search.settings
-          projectPath: UserSettings\Search.settings
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - commitID: 7a4a42c0e9892d46b2d1535b24ae2b433ddd4ef9
-        mergeA: 
-        mergeB: 
-        authorName: RugeFX
-        authorEmail: zackfxg@gmail.com
-        commitEmail: zackfxg@gmail.com
-        commitName: RugeFX
-        summary: Initial commit
-        description: 
-        timeString: 2025-05-01T20:30:17.000+07:00
-        commitTimeString: 2025-05-01T20:30:17.000+07:00
-        changes:
-        - path: .gitattributes
-          fullPath: D:\Unity Projects\vr02-balls-uts\.gitattributes
-          projectPath: .gitattributes
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: .gitignore
-          fullPath: D:\Unity Projects\vr02-balls-uts\.gitignore
-          projectPath: .gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-        - path: Assets\.gitignore
-          fullPath: D:\Unity Projects\vr02-balls-uts\Assets\.gitignore
-          projectPath: Assets\.gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
+      entries: []
       statusAhead: 0
       selectedIndex: -1
     selectedEntry:
@@ -1964,8 +1340,8 @@ MonoBehaviour:
     detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: 
-      gitLfsPath: 
+      gitPath: /Users/bimaturangga/Library/Application Support/GitForUnity/git/bin/git
+      gitLfsPath: /Users/bimaturangga/Library/Application Support/GitForUnity/git/libexec/git-core/git-lfs
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
@@ -1973,10 +1349,10 @@ MonoBehaviour:
       installSettingsHidden: 0
     hasRemote: 0
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 1
     newRepositoryRemoteUrl: 
-    repositoryRemoteName: 
+    repositoryRemoteName: origin
     repositoryRemoteUrl: 
     scroll: {x: 0, y: 0}
     userSettingsView:
@@ -1986,8 +1362,8 @@ MonoBehaviour:
       newGitEmail: 
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 
-        cacheType: 0
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
+        cacheType: 8
       configSettingsHidden: 0
     repositorySettingsHidden: 0
     generalSettingsHidden: 0
@@ -1995,10 +1371,10 @@ MonoBehaviour:
     uiSceneSettingsHidden: 0
     uiProjectSettingsHidden: 0
   locksView:
-    currentRemoteHasUpdate: 0
+    currentRemoteHasUpdate: 1
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
-    keychainHasUpdate: 0
+    keychainHasUpdate: 1
     locksControl:
       scroll: {x: 0, y: 0}
       gitLockEntries: []
@@ -2017,16 +1393,16 @@ MonoBehaviour:
             email: 
           lockedAtString: 
         gitFileStatus: 0
-        lockedAt: 
+        lockedAt: 1 Jan 0001, 07:07
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 6
     lockedFiles: []
     gitStatusEntries: []
     currentUsername: 
@@ -2058,10 +1434,10 @@ MonoBehaviour:
     updatedTimeString: 0001-01-01T00:00:00.000+00:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2025-05-04T00:23:26.139+07:00
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2025-05-04T00:43:49.861+07:00
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2079,9 +1455,9 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 0
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Refreshing
+  appManagerProgressValue: 0.5
   appManagerProgressMessage: 
   primaryConnectionUsername: 
 --- !u!114 &17
@@ -2129,7 +1505,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/ALP_Assets/country house01/Prefabs
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -2137,16 +1513,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/ALP_Assets/country house01/Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/bimaturangga/vr02-balls-horror-midterm
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 262}
-    m_SelectedIDs: 386e0000
-    m_LastClickedID: 28216
-    m_ExpandedIDs: 00000000e2600000e4600000e6600000e8600000ea600000ec600000ee6000002a6100002c6100003e6e000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: e8630000
+    m_LastClickedID: 25576
+    m_ExpandedIDs: 000000007463000076630000786300007a6300007c6300007e63000080630000826300008463000086630000886300008a6300008c6300008e63000090630000926300009463000096630000986300009a63000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2174,7 +1550,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e2600000e4600000e6600000e8600000ea600000ec600000ee6000002c6100003e6e000000ca9a3b
+    m_ExpandedIDs: 000000007463000076630000786300007a6300007c6300007e63000080630000826300008463000086630000886300008a6300008c6300008e63000090630000926300009463000096630000986300009a630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2202,7 +1578,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300005686000000000000228e0000
+    m_ExpandedInstanceIDs: c623000056860000228e000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2218,7 +1594,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
