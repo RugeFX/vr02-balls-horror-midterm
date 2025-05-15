@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TableTrigger : MonoBehaviour
 {
-    public GameObject dropObject;
+    public GameObject DropObject;
     bool isTriggered = false;
 
     void Start()
@@ -26,9 +26,9 @@ public class TableTrigger : MonoBehaviour
 
     private void TriggerObjectDrop()
     {
-        Transform dropObjectTransform = dropObject.transform;
+        Transform dropObjectTransform = DropObject.transform;
 
-        if (dropObject.TryGetComponent<Rigidbody>(out var rigidBody))
+        if (DropObject.TryGetComponent<Rigidbody>(out var rigidBody))
         {
             rigidBody.AddForceAtPosition((Vector3.forward + Vector3.down) * 50f, dropObjectTransform.position + Vector3.up * dropObjectTransform.localScale.y / 2, ForceMode.Impulse);
             isTriggered = true;

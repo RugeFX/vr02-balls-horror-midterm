@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class LookController : MonoBehaviour
 {
-    public float sensitivity = 2f;
-    public Transform playerBody;
+    public float Sensitivity = 2f;
+    public Transform PlayerBody;
     float xRotation = 0f;
 
     void Start()
@@ -16,13 +16,13 @@ public class LookController : MonoBehaviour
 
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * sensitivity;
-        float mouseY = Input.GetAxis("Mouse Y") * sensitivity;
+        float mouseX = Input.GetAxis("Mouse X") * Sensitivity;
+        float mouseY = Input.GetAxis("Mouse Y") * Sensitivity;
 
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
         transform.localEulerAngles = Vector3.right * xRotation;
 
-        playerBody.Rotate(Vector3.up * mouseX);
+        PlayerBody.Rotate(Vector3.up * mouseX);
     }
 }
