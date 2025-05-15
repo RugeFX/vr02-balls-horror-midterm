@@ -7,6 +7,6 @@ public class WoodenBoard : MonoBehaviour, IInteractable
 {
     public void Interact()
     {
-        SceneManager.LoadScene("UserScene");
+        SceneManager.LoadScene("InternalMap");
     }
 }
