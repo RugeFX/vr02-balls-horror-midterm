@@ -5,6 +5,7 @@ using UnityEngine;
 public class MovementController : MonoBehaviour
 {
     public float walkSpeed = 5f;
+    public float crouchSpeed = 2.5f;
     public float gravity = Physics.gravity.y;
     public float jumpHeight = 3f;
 
@@ -15,10 +16,12 @@ public class MovementController : MonoBehaviour
     bool isGrounded;
     CharacterController controller;
     Vector3 velocity;
+    float baseHeight;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        baseHeight = controller.height;
     }
 
     void Update()
@@ -36,7 +39,19 @@ public class MovementController : MonoBehaviour
 
         Vector3 move = Vector3.ClampMagnitude(transform.right * x + transform.forward * z, 1f);
 
-        controller.Move(walkSpeed * Time.deltaTime * move);
+        float currentSpeed = walkSpeed;
+
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            controller.height = baseHeight * 0.5f;
+            currentSpeed = crouchSpeed;
+        }
+        else
+        {
+            controller.height = baseHeight;
+        }
+
+        controller.Move(currentSpeed * Time.deltaTime * move);
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
