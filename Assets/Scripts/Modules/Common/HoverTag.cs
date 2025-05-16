@@ -1,12 +1,10 @@
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class HoverTag : MonoBehaviour, IHoverable
 {
-    public string tagText = "Text";
+    public string TagText = "Text";
     CanvasGroup tagCanvasGroup;
     Coroutine currentCoroutine;
 
@@ -18,7 +16,7 @@ public class HoverTag : MonoBehaviour, IHoverable
 
     void Update()
     {
-        tagCanvasGroup.GetComponentInChildren<TextMeshProUGUI>().text = tagText;
+        tagCanvasGroup.GetComponentInChildren<TextMeshProUGUI>().text = TagText;
     }
 
     void LateUpdate()

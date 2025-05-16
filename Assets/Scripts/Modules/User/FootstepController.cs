@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FootstepController : MonoBehaviour
 {
-    public List<AudioClip> footstepSounds;
+    public List<AudioClip> FootstepSounds;
 
     AudioSource audioSource;
     Coroutine audioCoroutine;
@@ -20,12 +20,10 @@ public class FootstepController : MonoBehaviour
 
         if (magnitude > 0)
         {
-            Debug.Log("PlayFootstep");
             audioCoroutine ??= StartCoroutine(PlayFootstep());
         }
         else
         {
-            Debug.Log("StopFootstep");
             if (audioCoroutine != null)
                 StopCoroutine(audioCoroutine);
 
@@ -37,7 +35,7 @@ public class FootstepController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
 
-        audioSource.clip = footstepSounds[Random.Range(0, footstepSounds.Count)];
+        audioSource.clip = FootstepSounds[Random.Range(0, FootstepSounds.Count)];
         audioSource.Play();
 
         audioCoroutine = null;
