@@ -1,6 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class HoverOutline : MonoBehaviour, IHoverable
@@ -13,7 +11,7 @@ public class HoverOutline : MonoBehaviour, IHoverable
         outline = gameObject.AddComponent<Outline>();
 
         outline.OutlineMode = Outline.Mode.OutlineAll;
-        outline.OutlineColor = Color.white.WithAlpha(0.5f);
+        outline.OutlineColor = Color.white;
         outline.OutlineWidth = 0f;
     }
 

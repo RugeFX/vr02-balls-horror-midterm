@@ -5401,6 +5401,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6281726999279032984, guid: 0b26cd811d173394ea7ee69051b77c63, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[7].renderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6281726999279032984, guid: 0b26cd811d173394ea7ee69051b77c63, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[7].renderer
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8442262470655759370, guid: 0b26cd811d173394ea7ee69051b77c63, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -5422,7 +5430,12 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2594713235057194453, guid: 0b26cd811d173394ea7ee69051b77c63, type: 3}
+    - {fileID: 2484212735416486378, guid: 0b26cd811d173394ea7ee69051b77c63, type: 3}
+    - {fileID: 237563545110636121, guid: 0b26cd811d173394ea7ee69051b77c63, type: 3}
+    - {fileID: 8015193932776963572, guid: 0b26cd811d173394ea7ee69051b77c63, type: 3}
+    - {fileID: 2594713235057194463, guid: 0b26cd811d173394ea7ee69051b77c63, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b26cd811d173394ea7ee69051b77c63, type: 3}
@@ -5613,7 +5626,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 00bffd80250bf49fbbb898e53fa7c853, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 32186eff631d6ed47abb21f081633df6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
